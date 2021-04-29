@@ -14,7 +14,7 @@ if [  -f "/home/pi/Smart-Video/gps-activate.txt" ]
 then
 	cd /home/pi
 	mkdir gps-data
-	python3 gps.py > /home/pi/gps-data/gps-data.txt
+	./gps_info > /home/pi/gps-data/gps-data.txt
 fi
 
 

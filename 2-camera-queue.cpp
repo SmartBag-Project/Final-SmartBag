@@ -33,8 +33,8 @@ int main(int argc, char* argv[])
 
   
   
-  srand((unsigned) time(0)); //random number generator
-  int randomNumber;
+  //srand((unsigned) time(0)); //random number generator
+  //int randomNumber;
 
   	int fd;														// File descrition
 	char *fileName = "/dev/i2c-1";								// Name of the port we will be using
@@ -228,7 +228,7 @@ int main(int argc, char* argv[])
 
     while(1)
       {
-	  randomNumber = (rand() % 1000) + 1;
+	  //randomNumber = (rand() % 1000) + 1;
 	  
 	  	buf[0] = 0x32;													// This is the register we wish to read from
 	if ((write(fd, buf, 1)) != 1) {								// Send the register to read from

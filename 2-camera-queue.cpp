@@ -1,8 +1,8 @@
 #include <opencv2/highgui.hpp>
 #include <iostream>
-#include <ctime>
+//#include <ctime>
 #include <cstdio>
-#include <time.h>
+//#include <time.h>
 #include <stdio.h>
 #include <queue>
 #include <cstdlib>
